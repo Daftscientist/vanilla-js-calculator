@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-900 flex items-center justify-center h-screen">
+    <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+        <input id="resultBox" type="text" class="w-full h-16 text-right text-white text-4xl bg-gray-900 border-none outline-none mb-4" readonly>
+        <div class="flex w-full">
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="sevenButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">7</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="eightButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">8</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="nineButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">9</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="multiplyButton" class="w-full h-16 outline-none focus:outline-none bg-indigo-700 bg-opacity-10 hover:bg-opacity-20 text-white text-xl font-light">⨉</button>
+            </div>
+        </div>
+        <div class="flex w-full">
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="fourButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">4</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="fiveButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">5</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="sixButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">6</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="subtractButton" class="w-full h-16 outline-none focus:outline-none bg-indigo-700 bg-opacity-10 hover:bg-opacity-20 text-white text-xl font-light">-</button>
+            </div>
+        </div>
+        <div class="flex w-full">
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="oneButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">1</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="twoButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">2</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="threeButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">3</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="addButton" class="w-full h-16 outline-none focus:outline-none bg-indigo-700 bg-opacity-10 hover:bg-opacity-20 text-white text-xl font-light">+</button>
+            </div>
+        </div>
+        <div class="flex w-full">
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="zeroButton" class="w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light">0</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="clearButton" class="w-full h-16 outline-none focus:outline-none bg-red-700 bg-opacity-10 hover:bg-opacity-20 text-white text-xl font-light">C</button>
+            </div>
+            <div class="w-1/4 border-r border-b border-indigo-400">
+                <button id="divideButton" class="w-full h-16 outline-none focus:outline-none bg-indigo-700 bg-opacity-10 hover:bg-opacity-20 text-white text-xl font-light">÷</button>
+            </div>
+            <div class="w-1/4 border-b border-indigo-400">
+                <button id="equalsButton" class="w-full h-16 outline-none focus:outline-none bg-green-700 bg-opacity-10 hover:bg-opacity-20 text-white text-xl font-light">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
